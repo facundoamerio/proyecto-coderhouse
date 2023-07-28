@@ -1,21 +1,37 @@
-* {
+.banner-img {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+}
 
-    margin: 0;
-  
-    padding: 0;
-  
-    box-sizing: border-box;
-  
-  }
-  
-   .navbar-nav {
-    width: 100%;
-    justify-content: space-evenly;
-  }
-  .navbar-nav .nav-link {
-    color: white;
-  }
-  
-  body{
-    min-height: 100vh;
-  }
+.banner-gallery {
+  background-image: url(../assets/images/gallerybanner.jpg);
+}
+
+.guitar-img {
+  background-image: url("../assets/images/carter-vintage.jpg");
+}
+
+.about-img {
+  background-image: url("../assets/images/Aboutus.jpg");
+}
+.about-img h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about-img p {
+  font-size: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=estilos.css.map */
